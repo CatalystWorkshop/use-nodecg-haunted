@@ -1,4 +1,4 @@
-import {useEffect, useState} from 'react';
+import {useEffect, useState} from 'haunted';
 import clone from 'lodash.clone';
 import {ReplicantOptions} from 'nodecg/types/server';
 

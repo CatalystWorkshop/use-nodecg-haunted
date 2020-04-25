@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import {useState} from 'haunted';
 
 export interface UseReplicantOnceOptions {
 	bundle: string;

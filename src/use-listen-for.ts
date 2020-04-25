@@ -1,4 +1,4 @@
-import {useEffect} from 'react';
+import {useEffect} from 'haunted';
 
 export interface UseListenForOptions {
 	bundle: string;
