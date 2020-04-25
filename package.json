@@ -1,5 +1,5 @@
 {
-	"name": "use-nodecg-haunted",
+	"name": "@catalyst-workshop/use-nodecg-haunted",
 	"version": "0.4.1-1",
 	"description": "Custom Hooks for NodeCG, Ported from React to Haunted",
 	"keywords": [
@@ -33,7 +33,7 @@
 		"build:cjs": "tsc -p tsconfig.cjs.json",
 		"build:esm": "tsc -p tsconfig.esm.json",
 		"fmt": "yarn _prettier --write",
-		"prepublishOnly": "yarn build",
+		"prepublishOnly": "npm run build",
 		"release": "standard-version",
 		"test": "run-s test:*",
 		"test:fmt": "yarn _prettier --check",

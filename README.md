@@ -10,7 +10,9 @@
 [![node version](https://img.shields.io/node/v/use-nodecg.svg)](https://nodejs.org/en/)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-This package is a collection custom hooks of [React Hooks](https://reactjs.org/docs/hooks-intro.html) for NodeCG API.
+This **fork** is a collection custom hooks of [React-Style Hooks](https://reactjs.org/docs/hooks-intro.html) for the [NodeCG](https://nodecg.com) API, modified to use the hooks provided by [haunted](https://www.npmjs.com/package/haunted), which adapts the react hooks for use in [lit-html](https://lit-html.polymer-project.org/)-templated functional web components.
+
+The original hooks package for react is maintained [here](https://github.com/Hoishin/use-nodecg).
 
 🚨 This package is in alpha state, as well as the React Hooks API itself. Do not use in production. But feel free to try out and file an issue for suggestion/bugs!
 
